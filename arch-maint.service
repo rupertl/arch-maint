@@ -1,0 +1,8 @@
+# systemd unit file to run arch-main-email.sh once
+
+[Unit]
+Description=Arch system maintenance script
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/arch-maint-email.sh
